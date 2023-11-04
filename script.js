@@ -1,13 +1,25 @@
-function getInitialDestination() 
+function setDestinationVar() 
 {
     // saves users input into intial and destination variables
-    var nameInitial = document.getElementById("initial");
-    var nameDestination = document.getElementById("destination");
-
-    print(nameInitial, nameDestination)
+    const nameInitial = document.getElementById("initial");
+    const nameDestination = document.getElementById("destination");
  
 }
 
 
-// Save the locations as well as the user's selected filters (price, time, etc.) and save those into a variables.
-// Then, save those variables to a maybe a file or simply return it to be parsed by back-end.
+function setFilterVar() 
+{
+    // saves users optional filters
+
+    price = document.getElementById("price");
+    type = document.getElementById("type");
+    rating = document.getElementById("rating");
+    radius = document.getElementById("radius");
+    let keyword = document.getElementById("keyword");
+
+
+
+    // convert $$ to number
+    // convert miles to meters
+ 
+}

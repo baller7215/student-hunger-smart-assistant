@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,64 @@
 
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <p>Hello</p>
+    <header>
+        <div>
+            <h1>Welcome to the Student Hunger Smart Assistant</h1>
+            <div class="line"></div><br><br>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Please input your current location and desired destination.</h1>
+        <form>
+            <label for="initial">Initial Location: </label>
+            <input class="input" type="text" id="initial" name="initial"><br><br>
+            <label for="destination">Destination Location: </label>
+            <input class="input" type="text" id="destination" name="destination"><br><br>
+            
+        
+
+            <h3>Please specify your desired filters.</h3>
+    
+            <label for="price">PRICE</label>
+            <select name="prices" id="price">
+                <option value="select">--select a price--</option>
+                <option value="$">$</option>
+                <option value="$$">$$</option>
+                <option value="$$$">$$$</option>
+                <option value="$$$$">$$$$$</option>
+            </select>
+            
+            <label for="type">TYPE</label>
+            <select name="types" id="type">
+                <option value="select">--select a type--</option>
+                <option value="fast-food">Fast Food</option>
+                <option value="grocery">Grocery</option>
+            </select>
+
+            <label for="rating">RATING</label>
+            <select name="ratings" id="rating">
+                <option value="select">--select a rating--</option>
+                <option value="1-3">&#9733&#9733&#9733&#9734&#9734</option>
+                <option value="4">&#9733&#9733&#9733&#9733&#9734</option>
+                <option value="5">&#9733&#9733&#9733&#9733&#9733</option>
+            </select>
+            <br><br>
+
+            <label for="keyword">KEYWORD</label>
+            <input class="keyword" type="text" id="keyword" name="keyword"><br><br>
+
+
+            <input class="submit" type="submit" value="submit">
+        </form>
+    </div>
 </body>
 </html>
-

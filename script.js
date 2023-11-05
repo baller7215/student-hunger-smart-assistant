@@ -1,3 +1,7 @@
+class main {
+    
+}
+
 const value = document.querySelector("#value");
 const input = document.querySelector("#radius");
 
@@ -5,21 +9,12 @@ input.addEventListener("input", (event) => {
   value.textContent = event.target.value;
 });
 
-// const value = document.querySelector("#value");
-// const input = document.querySelector("#distance");
-// value.textContent = input.value;
-// input.addEventListener("input", (event) => {
-//     value.textContent = event.target.value;
-// });
-
-
-
 function setDestinationVar() 
 {
     // saves users input into intial and destination variables
     const nameInitial = document.getElementById("initial");
     const nameDestination = document.getElementById("destination");
- 
+
 }
 
 

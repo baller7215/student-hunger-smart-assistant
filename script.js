@@ -13,7 +13,15 @@ async function handleSubmit(event)
 
     const result = await fetch('http://localhost:8000/food?' + new URLSearchParams(data));
     const locations = await result.json();
-    // console.log(locations)
+    console.log(locations)
+    const listContainer = document.getElementById('list-container');
+
+    locations.forEach(item => {
+        const listItem = document.createElement('li');
+        listItem.textContent = item;
+        listContainer.appendChild(listItem);
+    })
+
 
     
 }

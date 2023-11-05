@@ -2,8 +2,6 @@ function handleSubmit(event)
 {
     event.preventDefault();
 
-    // const data = new FormData(event.target);
-
     let initialLocation = setDestinationVar()[0];
     let destination = setDestinationVar()[1];
     let price = setFilterVar()[0];
@@ -18,7 +16,6 @@ function handleSubmit(event)
 }
 
 const form = document.getElementById("form");
-// const log = document.getElementById("log");
 form.addEventListener("submit", handleSubmit);
 
 const value = document.querySelector("#value");

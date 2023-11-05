@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Hunger Smart Assistant</title>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
 </head>
+
 
 <body>
     <header>
@@ -25,57 +27,39 @@
     </header>
     <div class="container">
         <h3>Please input your current location and desired destination.</h1>
-        <form>
-            <label for="initial">Initial Location: <span class="req">*</span></label>
-            <input class="input" type="text" id="initial" name="initial" required><br><br>
-            <label for="destination">Destination Location: <span class="req">*</span></label>
-            <input class="input" type="text" id="destination" name="destination" required><br><br>
-            
-            <h3>Please specify your desired filters.</h3>
-    
-            <label for="price">PRICE</label>
-            <select class="minimal" name="prices" id="price">
-                <option value="select">--select a price--</option>
-                <option value="$">$</option>
-                <option value="$$">$$</option>
-                <option value="$$$" selected>$$$</option>
-                <option value="$$$$">$$$$</option>
-            </select>
-            <br><br>
-            
-            <label for="category">CATEGORY</label>
-            <select class="minimal" name="categories" id="type">
-                <option value="select">--select a type--</option>
-                <option value="fast-food">Fast Food</option>
-                <option value="grocery">Grocery</option>
-                <option value="any" selected>Any</option>
-            </select>
-            <br><br>
+            <form>
+                <label for="initial">Initial Location: <span class="req">*</span></label>
+                <input class="input" type="text" id="initial" name="initial" required><br><br>
+                <label for="destination">Destination Location: <span class="req">*</span></label>
+                <input class="input" type="text" id="destination" name="destination" required><br><br>
 
-            <label for="rating">RATING</label>
-            <select class="minimal" name="ratings" id="rating">
-                <option value="select">--select a rating--</option>
-                <option value="1-3">&#9733&#9733&#9733&#9734&#9734</option>
-                <option value="4" selected>&#9733&#9733&#9733&#9733&#9734</option>
-                <option value="5">&#9733&#9733&#9733&#9733&#9733</option>
-            </select>
-            <br><br>
-            
-            <label for="radius">DISTANCE</label>
-            <select class="minimal" name="radius" id="radius">
-                <option value="select">--desired walking distance from route--</option>
-                <option value="dist1" selected>0 - 0.5 miles</option>
-                <option value="dist2">0.5 - 1 miles</option>
-                <option value="dist3">1+ miles</option>
-            </select>
-            <br><br>
+                <h3>Please specify your desired filters.</h3>
 
-            <label for="keyword">KEYWORD (Pizza, American, Starbucks, etc.)</label>
-            <input class="keyword" type="text" id="keyword" name="keyword"><br><br>
+                <!-- PRICE -->
+                <label for="price">PRICE</label>
+                <select class="minimal" name="prices" id="price">
+                    <option value="select">--select a price--</option>
+                    <option value="$">$</option>
+                    <option value="$$">$$</option>
+                    <option value="$$$" selected>$$$</option>
+                    <option value="$$$$">$$$$</option>
+                </select>
+                <br><br>
+
+                <!-- RADIUS -->
+                <label for="radius">DISTANCE</label>
+                <input id="radius" type="range" min="0.1" max="1" step="0.1" />
+                <p>Value: <output id="value">0.5</output> mile</p>
+
+                <!-- KEYWORD -->
+                <label for="keyword">KEYWORD (Pizza, American, Starbucks, etc.)</label>
+                <input class="keyword" type="text" id="keyword" name="keyword"><br><br>
 
 
-            <input class="submit" type="submit" value="submit">
-        </form>
+                <input class="submit" type="submit" value="submit">
+            </form>
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

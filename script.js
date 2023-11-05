@@ -1,6 +1,25 @@
-class main {
+function handleSubmit(event)
+{
+    event.preventDefault();
+
+    // const data = new FormData(event.target);
+
+    let initialLocation = setDestinationVar()[0];
+    let destination = setDestinationVar()[1];
+    let price = setFilterVar()[0];
+    let radius = setFilterVar()[1];
+    let keyword = setFilterVar()[2];
+
+    const data = {initialLocation, destination, price, radius, keyword};
+
+    console.log('/?' + new URLSearchParams(data));
+    
     
 }
+
+const form = document.getElementById("form");
+// const log = document.getElementById("log");
+form.addEventListener("submit", handleSubmit);
 
 const value = document.querySelector("#value");
 const input = document.querySelector("#radius");
@@ -12,9 +31,9 @@ input.addEventListener("input", (event) => {
 function setDestinationVar() 
 {
     // saves users input into intial and destination variables
-    const nameInitial = document.getElementById("initial");
-    const nameDestination = document.getElementById("destination");
-
+    const nameInitial = document.getElementById("initial").value;
+    const nameDestination = document.getElementById("destination").value;
+    return [nameInitial, nameDestination];
 }
 
 
@@ -23,7 +42,7 @@ function setFilterVar()
     // saves users optional filters
 
     // PRICE
-    price = document.getElementById("price");
+    let price = document.getElementById("price").value;
     // convert $$ into int
     if(price == "$")
     {
@@ -43,16 +62,18 @@ function setFilterVar()
     }
 
     // RADIUS
-    radius = document.getElementById("radius");
+    let radius = document.getElementById("radius").value;
     // convert miles to meters
     radius = radius * 1609.34;
 
     // KEYWORD
-    let keyword = document.getElementById("keyword");
+    let keyword = document.getElementById("keyword").value;
     // if keyword is empty, default to "food"
     if(keyword == false)
     {
         keyword = "food";
     }
+    
+    return [price, radius, keyword]; 
 
 }

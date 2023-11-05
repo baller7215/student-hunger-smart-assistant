@@ -1,17 +1,20 @@
-function handleSubmit(event)
+
+async function handleSubmit(event)
 {
     event.preventDefault();
 
-    let initialLocation = setDestinationVar()[0];
-    let destination = setDestinationVar()[1];
-    let price = setFilterVar()[0];
-    let radius = setFilterVar()[1];
+    let start_location = setDestinationVar()[0];
+    let end_location = setDestinationVar()[1];
+    let price_range = setFilterVar()[0];
+    let user_radius = Math.ceil(setFilterVar()[1]);
     let keyword = setFilterVar()[2];
 
-    const data = {initialLocation, destination, price, radius, keyword};
+    const data = {start_location, end_location, price_range, user_radius, keyword};
 
-    console.log('/?' + new URLSearchParams(data));
-    
+    const result = await fetch('http://localhost:8000/food?' + new URLSearchParams(data));
+    const locations = await result.json();
+    // console.log(locations)
+
     
 }
 

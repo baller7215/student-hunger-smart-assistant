@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=Inter:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 
@@ -25,46 +28,54 @@
             <div class="line"></div>
         </div>
     </header>
-    <div class="container">
-        <h3>Please input your current building location and desired destination.</h1>
-            <form id="form">
-                <label for="initial">Initial Location: <span class="req">*</span></label>
-                <input class="input" type="text" id="initial" name="initial" required><br><br>
-                <label for="destination">Destination Location: <span class="req">*</span></label>
-                <input class="input" type="text" id="destination" name="destination" required><br><br>
-
-                <h3>Please specify your desired filters.</h3>
-
-                <!-- PRICE -->
-                <label for="price">PRICE</label>
-                <select class="minimal" name="prices" id="price">
-                    <option value="select">--select a price--</option>
-                    <option value="$">$</option>
-                    <option value="$$">$$</option>
-                    <option value="$$$" selected>$$$</option>
-                    <option value="$$$$">$$$$</option>
-                </select>
-                <br><br>
-
-                <!-- RADIUS -->
-                <label for="radius">DISTANCE</label>
-                <input id="radius" type="range" min="0.1" max="1" step="0.1" />
-                <p>Value: <output id="value">0.5</output> mile</p>
-
-                <!-- KEYWORD -->
-                <label for="keyword">KEYWORD (Pizza, American, Starbucks, etc.)</label>
-                <input class="keyword" type="text" id="keyword" name="keyword"><br><br>
-
-
-                <input class="submit" type="submit" value="submit">
-            </form>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h3>Please input your current building location and desired destination.</h1>
+                    <form id="form">
+                        <label for="initial">Initial Location: <span class="req">*</span></label>
+                        <input class="input" type="text" id="initial" name="initial" required><br><br>
+                        <label for="destination">Destination Location: <span class="req">*</span></label>
+                        <input class="input" type="text" id="destination" name="destination" required><br><br>
+        
+                        <h3>Please specify your desired filters.</h3>
+        
+                        <!-- PRICE -->
+                        <label for="price">PRICE</label>
+                        <select class="minimal" name="prices" id="price">
+                            <option value="select">--select a price--</option>
+                            <option value="$">$</option>
+                            <option value="$$">$$</option>
+                            <option value="$$$" selected>$$$</option>
+                            <option value="$$$$">$$$$</option>
+                        </select>
+                        <br><br>
+        
+                        <!-- RADIUS -->
+                        <label for="radius">DISTANCE</label>
+                        <input id="radius" type="range" min="0.1" max="1" step="0.1" />
+                        <p>Value: <output id="value">0.5</output> mile</p>
+        
+                        <!-- KEYWORD -->
+                        <label for="keyword">KEYWORD (Pizza, American, Starbucks, etc.)</label>
+                        <input class="keyword" type="text" id="keyword" name="keyword"><br><br>
+        
+        
+                        <input class="submit" type="submit" value="submit">
+                    </form>
+            </div>
+            <br><br>
+            <div class="col-7" class="result">
+                <ul id="list-container">
+    
+                </ul>
+            </div>
+            
+        </div>
+        
         <br><br>
 
-        <div class="result">
-            <ul id="list-container">
-
-            </ul>
-        </div>
+        
     </div>
     <div class="result"></div>
     <script src="script.js"></script>

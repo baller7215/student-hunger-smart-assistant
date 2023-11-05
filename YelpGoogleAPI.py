@@ -3,16 +3,6 @@ import requests
 import json
 import googlemaps
 
-"""
-keyword = input("What would you like to search for?: ")
-price_range = input("Enter price range (1-4): ")
-user_radius = input("Enter radius: ")
-start_location = input("Enter start location: ")
-end_location = input("Enter end location: ")
-#start_location = "557 E Peltason Dr, Irvine, CA 92612"
-#end_location = "1100 Stanford Irvine, CA 92foodfoo612"
-"""
-
 # Varibles & User assignment
 def getYelpGoogle(keyword, price_range, user_radius, start_location, end_location):
     #YELP
@@ -120,24 +110,12 @@ def getYelpGoogle(keyword, price_range, user_radius, start_location, end_locatio
         city = business["location"]["city"]
         state = business["location"]["state"]
         zip_code = business["location"]["zip_code"]
-
-    """
-    for name, address, rating in zip(business_names, business_addresses, business_ratings):
-        print(f"Name: {name}")
-        print(f"Address: {address}, {city}, {state} {zip_code}")
-        print(f"Rating: {rating}")
-        print()
-    """
     
     results = []
     for name, address, rating in zip(business_names, business_addresses, business_ratings):
-        formatted_address = f"Address: {address} {city} {state} {zip_code}"
-        formatted_rating = f"Rating: {rating}"
+        formatted_address = f"Address: {address}, {city}, {state} {zip_code}"
+        formatted_rating = f"Rating: {rating}/5.0"
         result = f"Name: {name}, {formatted_address}, {formatted_rating}"
         results.append(result)
 
     return results
-    
-    
-
-#print(getYelpGoogle("boba", 1, 1600, "Mesa Court Housing", "Plaza Verde"))

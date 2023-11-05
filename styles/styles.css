@@ -6,12 +6,6 @@
     --sand: #FBEEC1;
 }
 
-/* apple like animation */
-html {
-    height: 100vh;
-}
-
-
 header {
     width: 90%;
     height: 80px;
@@ -22,24 +16,18 @@ header {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: xx-large;
-    /* margin: 0;*/
     font-weight: bolder;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: large;
-    /* margin: 0;*/
     font-weight: bolder;
 }
 
 .container {
-    width: 90%;
     text-align: left;
-    /* margin: auto; */
     margin-top: 50px;
-    /* margin-left: 30px; */
-    margin-left: 5%;
 }
 
 
@@ -48,7 +36,6 @@ h3 {
     height: 10px;
     border-start-start-radius: 25%;
     background-image: linear-gradient( 109.5deg, rgba(76,221,242,1) 11.2%, rgba(92,121,255,1) 91.1% );
-    /* margin-bottom: 20px; */
 }
 
 label {
@@ -87,14 +74,11 @@ input[type=submit] {
 }
 
 input[type=range] {
-    /* border: 2px solid transparent; */
     width: 15em;
-    /* height: 2.5em; */
     padding-left: 0.8em;
     outline: none;
     overflow: hidden;
     background-color: #F3F3F3;
-    /* border-radius: 10px; */
     transition: all 0.5s;
     margin-left: 1%;
 }
@@ -102,21 +86,14 @@ input[type=range] {
 
 
 select {
-    /* styling */
     background-color: white;
     border: thin solid;
     border-radius: 10px;
-    /* display: inline; */
     font: inherit;
     line-height: 1.7em;
     padding: 0.25em 3.5em 0.25em 1em;
     margin-left: 1%;
-    /* reset */
   
-    /* margin: 0;       */
-    /* -webkit-box-sizing: border-box; */
-    /* -moz-box-sizing: border-box; */
-    /* box-sizing: border-box; */
     -webkit-appearance: none;
     -moz-appearance: none;
 }
@@ -160,5 +137,22 @@ select:-moz-focusring {
     text-shadow: 0 0 0 #000;
 }
 
+ul {
+    list-style-type: none;
+}
 
+li {
+    padding-bottom: 20px;
+    font-size: larger;
+    font-family: 'Cuprum', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.col {
+    padding-left: 5%;
+}
+
+.col-8 {
+    padding-right: 5%;
+}

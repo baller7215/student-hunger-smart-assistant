@@ -1,0 +1,991 @@
+{
+   "businesses": [
+      {
+         "id": "QzJxZ67PVrqy6Z_5gKfxyw",
+         "alias": "le-diplomate-cafe-irvine",
+         "name": "Le Diplomate Cafe",
+         "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/s0Qyhfxm-36rrBPMvt_6yg/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/le-diplomate-cafe-irvine?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 1905,
+         "categories": [
+            {
+               "alias": "bakeries",
+               "title": "Bakeries"
+            },
+            {
+               "alias": "sandwiches",
+               "title": "Sandwiches"
+            },
+            {
+               "alias": "cafes",
+               "title": "Cafes"
+            }
+         ],
+         "rating": 4.5,
+         "coordinates": {
+            "latitude": 33.650408,
+            "longitude": -117.838442
+         },
+         "transactions": [
+            "delivery",
+            "pickup"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4237 Campus Dr",
+            "address2": "Ste B161",
+            "address3": null,
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4237 Campus Dr",
+               "Ste B161",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19498545161",
+         "display_phone": "(949) 854-5161",
+         "distance": 244.90555432654327
+      },
+      {
+         "id": "rvQ1dbL0UOKmcQyMEgvO0g",
+         "alias": "california-gogi-grill-irvine-3",
+         "name": "California Gogi Grill",
+         "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/nqrCJVQAPpI1m9TC3HDtNA/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/california-gogi-grill-irvine-3?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 639,
+         "categories": [
+            {
+               "alias": "korean",
+               "title": "Korean"
+            }
+         ],
+         "rating": 3.5,
+         "coordinates": {
+            "latitude": 33.6491405,
+            "longitude": -117.8392785
+         },
+         "transactions": [
+            "delivery"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4237 Campus Dr",
+            "address2": "Ste 157B",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4237 Campus Dr",
+               "Ste 157B",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19498540000",
+         "display_phone": "(949) 854-0000",
+         "distance": 166.15740688296964
+      },
+      {
+         "id": "8bYPc0rN7XEJtyGoN-I6Lg",
+         "alias": "chick-fil-a-irvine-7",
+         "name": "Chick-fil-A",
+         "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/zb_erM23_IsSH1aSnAOB8w/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/chick-fil-a-irvine-7?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 283,
+         "categories": [
+            {
+               "alias": "hotdogs",
+               "title": "Fast Food"
+            },
+            {
+               "alias": "chickenshop",
+               "title": "Chicken Shop"
+            },
+            {
+               "alias": "salad",
+               "title": "Salad"
+            }
+         ],
+         "rating": 3.5,
+         "coordinates": {
+            "latitude": 33.6496647,
+            "longitude": -117.8398073
+         },
+         "transactions": [
+            "delivery"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4127 Campus Dr",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4127 Campus Dr",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19497250230",
+         "display_phone": "(949) 725-0230",
+         "distance": 117.53886277571911
+      },
+      {
+         "id": "bhNBmYIZppxfIw0pUnEtTw",
+         "alias": "chipotle-mexican-grill-irvine-6",
+         "name": "Chipotle Mexican Grill",
+         "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/JBonVb8HanjTOOqt94Bg4A/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/chipotle-mexican-grill-irvine-6?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 290,
+         "categories": [
+            {
+               "alias": "mexican",
+               "title": "Mexican"
+            },
+            {
+               "alias": "hotdogs",
+               "title": "Fast Food"
+            }
+         ],
+         "rating": 2.0,
+         "coordinates": {
+            "latitude": 33.649593,
+            "longitude": -117.839315
+         },
+         "transactions": [
+            "delivery",
+            "pickup"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4255 Campus Dr",
+            "address2": "Ste A116",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4255 Campus Dr",
+               "Ste A116",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19492423737",
+         "display_phone": "(949) 242-3737",
+         "distance": 163.63366848503662
+      },
+      {
+         "id": "S445_-W9AwZO52M28Y78tA",
+         "alias": "cha-for-tea-university-town-center-irvine-4",
+         "name": "Cha For Tea - University Town Center",
+         "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ID3BKWHeSappj-iELitX4Q/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/cha-for-tea-university-town-center-irvine-4?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 1981,
+         "categories": [
+            {
+               "alias": "coffee",
+               "title": "Coffee & Tea"
+            },
+            {
+               "alias": "bubbletea",
+               "title": "Bubble Tea"
+            },
+            {
+               "alias": "chinese",
+               "title": "Chinese"
+            }
+         ],
+         "rating": 4.0,
+         "coordinates": {
+            "latitude": 33.650831,
+            "longitude": -117.838826
+         },
+         "transactions": [
+            "delivery",
+            "pickup"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4187 Campus Dr",
+            "address2": "Ste M173",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4187 Campus Dr",
+               "Ste M173",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19497250300",
+         "display_phone": "(949) 725-0300",
+         "distance": 217.78450784311048
+      },
+      {
+         "id": "esUqa0VrYZoKlAr0RpFtYQ",
+         "alias": "in-n-out-burger-irvine",
+         "name": "In-N-Out Burger",
+         "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/tdj_7iMEOavibZEugV6TkA/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/in-n-out-burger-irvine?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 846,
+         "categories": [
+            {
+               "alias": "burgers",
+               "title": "Burgers"
+            },
+            {
+               "alias": "hotdogs",
+               "title": "Fast Food"
+            }
+         ],
+         "rating": 4.5,
+         "coordinates": {
+            "latitude": 33.650154,
+            "longitude": -117.84063
+         },
+         "transactions": [],
+         "price": "$",
+         "location": {
+            "address1": "4115 Campus Dr",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4115 Campus Dr",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+18007861000",
+         "display_phone": "(800) 786-1000",
+         "distance": 43.42130010098318
+      },
+      {
+         "id": "6O57R0opibNYKyi_U5xPZw",
+         "alias": "pink-pig-irvine",
+         "name": "Pink Pig",
+         "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/oCquksqB_nhO0azAYZEhag/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/pink-pig-irvine?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 76,
+         "categories": [
+            {
+               "alias": "bubbletea",
+               "title": "Bubble Tea"
+            },
+            {
+               "alias": "desserts",
+               "title": "Desserts"
+            },
+            {
+               "alias": "coffee",
+               "title": "Coffee & Tea"
+            }
+         ],
+         "rating": 4.0,
+         "coordinates": {
+            "latitude": 33.64987126297869,
+            "longitude": -117.8389907044833
+         },
+         "transactions": [
+            "delivery",
+            "pickup"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4255 Campus Dr",
+            "address2": "Ste A124",
+            "address3": null,
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4255 Campus Dr",
+               "Ste A124",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "",
+         "display_phone": "",
+         "distance": 188.9659873879131
+      },
+      {
+         "id": "sTSi1EgTj8WFBz0Bv66Zbw",
+         "alias": "taco-bell-irvine-4",
+         "name": "Taco Bell",
+         "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/cCvBhgOuBVuwYiEaA6nc_w/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/taco-bell-irvine-4?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 174,
+         "categories": [
+            {
+               "alias": "mexican",
+               "title": "Mexican"
+            },
+            {
+               "alias": "hotdogs",
+               "title": "Fast Food"
+            }
+         ],
+         "rating": 2.5,
+         "coordinates": {
+            "latitude": 33.6509483524066,
+            "longitude": -117.840873556031
+         },
+         "transactions": [
+            "delivery",
+            "pickup"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4101 Campus Drive",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4101 Campus Drive",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19497258348",
+         "display_phone": "(949) 725-8348",
+         "distance": 111.95208425259291
+      },
+      {
+         "id": "PVvrLUS4vD8rZ0PiAevw_g",
+         "alias": "einstein-bros-bagels-irvine-3",
+         "name": "Einstein Bros. Bagels",
+         "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/EimXYoi4eIUngvhWpeIaMw/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/einstein-bros-bagels-irvine-3?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 13,
+         "categories": [
+            {
+               "alias": "bagels",
+               "title": "Bagels"
+            },
+            {
+               "alias": "breakfast_brunch",
+               "title": "Breakfast & Brunch"
+            },
+            {
+               "alias": "sandwiches",
+               "title": "Sandwiches"
+            }
+         ],
+         "rating": 3.0,
+         "coordinates": {
+            "latitude": 33.64835,
+            "longitude": -117.8406
+         },
+         "transactions": [],
+         "price": "$",
+         "location": {
+            "address1": "G318 Student Ctr",
+            "address2": "Bldg 204",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92697",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "G318 Student Ctr",
+               "Bldg 204",
+               "Irvine, CA 92697"
+            ]
+         },
+         "phone": "+19498247190",
+         "display_phone": "(949) 824-7190",
+         "distance": 161.55303611970527
+      },
+      {
+         "id": "uhOztX8_pe52lQlYKTaFjw",
+         "alias": "rays-pizza-irvine",
+         "name": "Ray's Pizza",
+         "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/S1YoTamsnBaV8SeUW18U2A/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/rays-pizza-irvine?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 342,
+         "categories": [
+            {
+               "alias": "pizza",
+               "title": "Pizza"
+            },
+            {
+               "alias": "italian",
+               "title": "Italian"
+            },
+            {
+               "alias": "salad",
+               "title": "Salad"
+            }
+         ],
+         "rating": 4.0,
+         "coordinates": {
+            "latitude": 33.65076,
+            "longitude": -117.83831
+         },
+         "transactions": [
+            "delivery",
+            "pickup"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4199 Campus Dr",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4199 Campus Dr",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19498545044",
+         "display_phone": "(949) 854-5044",
+         "distance": 270.15500949509675
+      },
+      {
+         "id": "hiczRBTNxzPitF1Hzn1-mQ",
+         "alias": "panda-express-irvine-10",
+         "name": "Panda Express",
+         "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ziL4N1CKztlODvV8OYq7RQ/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/panda-express-irvine-10?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 50,
+         "categories": [
+            {
+               "alias": "hotdogs",
+               "title": "Fast Food"
+            },
+            {
+               "alias": "chinese",
+               "title": "Chinese"
+            }
+         ],
+         "rating": 2.5,
+         "coordinates": {
+            "latitude": 33.64819,
+            "longitude": -117.84065
+         },
+         "transactions": [],
+         "price": "$",
+         "location": {
+            "address1": "A232 Student Center",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92697",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "A232 Student Center",
+               "Irvine, CA 92697"
+            ]
+         },
+         "phone": "+19498240659",
+         "display_phone": "(949) 824-0659",
+         "distance": 161.55303611970527
+      },
+      {
+         "id": "orp5iNOVFWBmG-dHyvvK3A",
+         "alias": "wendys-irvine-4",
+         "name": "Wendy's",
+         "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/lM5QwzKpZF7sgjR6IsCvOA/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/wendys-irvine-4?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 24,
+         "categories": [
+            {
+               "alias": "burgers",
+               "title": "Burgers"
+            },
+            {
+               "alias": "hotdogs",
+               "title": "Fast Food"
+            }
+         ],
+         "rating": 3.0,
+         "coordinates": {
+            "latitude": 33.649545,
+            "longitude": -117.842714
+         },
+         "transactions": [],
+         "price": "$",
+         "location": {
+            "address1": "113 Pereira Drive-Univ Of Ca",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92697",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "113 Pereira Drive-Univ Of Ca",
+               "Irvine, CA 92697"
+            ]
+         },
+         "phone": "+19498243097",
+         "display_phone": "(949) 824-3097",
+         "distance": 162.2511466254901
+      },
+      {
+         "id": "z-La7mVgc7Y0iGXPs-uUWg",
+         "alias": "wahoos-fish-tacos-irvine-3",
+         "name": "Wahoo's Fish Tacos",
+         "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/DA50hLwTNqOwN0mPsVmNtg/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/wahoos-fish-tacos-irvine-3?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 29,
+         "categories": [
+            {
+               "alias": "mexican",
+               "title": "Mexican"
+            }
+         ],
+         "rating": 3.5,
+         "coordinates": {
+            "latitude": 33.6493818973953,
+            "longitude": -117.842740416527
+         },
+         "transactions": [],
+         "price": "$",
+         "location": {
+            "address1": "437 Campus Dr",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "437 Campus Dr",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19498240655",
+         "display_phone": "(949) 824-0655",
+         "distance": 170.45867701397833
+      },
+      {
+         "id": "PcInY-8UB4h2rirbx2azvg",
+         "alias": "jack-in-the-box-irvine-2",
+         "name": "Jack in the Box",
+         "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/QViZewiSontkuwYf6T7lbQ/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/jack-in-the-box-irvine-2?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 168,
+         "categories": [
+            {
+               "alias": "hotdogs",
+               "title": "Fast Food"
+            },
+            {
+               "alias": "burgers",
+               "title": "Burgers"
+            },
+            {
+               "alias": "tacos",
+               "title": "Tacos"
+            }
+         ],
+         "rating": 3.0,
+         "coordinates": {
+            "latitude": 33.6486587524414,
+            "longitude": -117.838020324707
+         },
+         "transactions": [
+            "delivery"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4289 Campus Dr",
+            "address2": null,
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4289 Campus Dr",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19498238983",
+         "display_phone": "(949) 823-8983",
+         "distance": 317.722574569239
+      },
+      {
+         "id": "3yftt9-A6mLIzkJALRbZqw",
+         "alias": "dunkin-irvine-3",
+         "name": "Dunkin'",
+         "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/dd7Ws6lPguBIyf6K3b4X-A/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/dunkin-irvine-3?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 100,
+         "categories": [
+            {
+               "alias": "donuts",
+               "title": "Donuts"
+            },
+            {
+               "alias": "coffee",
+               "title": "Coffee & Tea"
+            }
+         ],
+         "rating": 3.5,
+         "coordinates": {
+            "latitude": 33.64998291491312,
+            "longitude": -117.83929911411424
+         },
+         "transactions": [
+            "delivery"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4139 Campus Dr",
+            "address2": "",
+            "address3": null,
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4139 Campus Dr",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19493333625",
+         "display_phone": "(949) 333-3625",
+         "distance": 160.25746972411608
+      },
+      {
+         "id": "PZ5DdMliakXdyMHbo17SVg",
+         "alias": "benes-pizza-and-pasta-irvine",
+         "name": "Bene's Pizza & Pasta",
+         "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YzN8a2YTxc0BqeEbDqFJQA/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/benes-pizza-and-pasta-irvine?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 23,
+         "categories": [
+            {
+               "alias": "italian",
+               "title": "Italian"
+            }
+         ],
+         "rating": 3.5,
+         "coordinates": {
+            "latitude": 33.6487611798883,
+            "longitude": -117.842048406601
+         },
+         "transactions": [],
+         "price": "$",
+         "location": {
+            "address1": "University Of California Irvine",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92604",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "University Of California Irvine",
+               "Irvine, CA 92604"
+            ]
+         },
+         "phone": "+19498240657",
+         "display_phone": "(949) 824-0657",
+         "distance": 162.35970652946583
+      },
+      {
+         "id": "H8JMuhdCKknr2ZHqKnLogw",
+         "alias": "sharetea-irvine-3",
+         "name": "Sharetea",
+         "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/rpMYwbjHldrDSVucIiWBcg/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/sharetea-irvine-3?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 191,
+         "categories": [
+            {
+               "alias": "coffee",
+               "title": "Coffee & Tea"
+            },
+            {
+               "alias": "bubbletea",
+               "title": "Bubble Tea"
+            },
+            {
+               "alias": "juicebars",
+               "title": "Juice Bars & Smoothies"
+            }
+         ],
+         "rating": 4.0,
+         "coordinates": {
+            "latitude": 33.65076,
+            "longitude": -117.83831
+         },
+         "transactions": [
+            "delivery"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4199 Campus Dr",
+            "address2": "Ste C",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4199 Campus Dr",
+               "Ste C",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19493332946",
+         "display_phone": "(949) 333-2946",
+         "distance": 270.15500949509675
+      },
+      {
+         "id": "PAfCWNDZmj3fm0O7iofkaw",
+         "alias": "yogurtland-irvine-21",
+         "name": "Yogurtland",
+         "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xmVvOd4tKUhrGAXinHzaHw/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/yogurtland-irvine-21?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 247,
+         "categories": [
+            {
+               "alias": "icecream",
+               "title": "Ice Cream & Frozen Yogurt"
+            },
+            {
+               "alias": "juicebars",
+               "title": "Juice Bars & Smoothies"
+            },
+            {
+               "alias": "acaibowls",
+               "title": "Acai Bowls"
+            }
+         ],
+         "rating": 3.5,
+         "coordinates": {
+            "latitude": 33.650862,
+            "longitude": -117.838816
+         },
+         "transactions": [
+            "delivery",
+            "pickup"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4187 Campus Dr",
+            "address2": "M-172",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4187 Campus Dr",
+               "M-172",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19498544580",
+         "display_phone": "(949) 854-4580",
+         "distance": 217.78450784311048
+      },
+      {
+         "id": "GnXvTIaL_UDTaAPyBFxOuw",
+         "alias": "jamba-juice-irvine-4",
+         "name": "Jamba Juice",
+         "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/YniF3ql_POXyQ11GIVZ6WA/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/jamba-juice-irvine-4?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 58,
+         "categories": [
+            {
+               "alias": "juicebars",
+               "title": "Juice Bars & Smoothies"
+            }
+         ],
+         "rating": 3.5,
+         "coordinates": {
+            "latitude": 33.649417907378286,
+            "longitude": -117.84288229386594
+         },
+         "transactions": [],
+         "price": "$",
+         "location": {
+            "address1": "311A Student Ctr",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92697",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "311A Student Ctr",
+               "Irvine, CA 92697"
+            ]
+         },
+         "phone": "+19498240657",
+         "display_phone": "(949) 824-0657",
+         "distance": 181.37562017828955
+      },
+      {
+         "id": "rks1Lv2bWt2ULwaCuqQ_Bg",
+         "alias": "peets-coffee-irvine-2",
+         "name": "Peet's Coffee",
+         "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/vnHsSCYC8-io9XJ8EGG82A/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/peets-coffee-irvine-2?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 247,
+         "categories": [
+            {
+               "alias": "coffee",
+               "title": "Coffee & Tea"
+            }
+         ],
+         "rating": 3.5,
+         "coordinates": {
+            "latitude": 33.650425,
+            "longitude": -117.837875
+         },
+         "transactions": [
+            "delivery"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4213 Campus Dr",
+            "address2": "Ste P166-A",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92612",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4213 Campus Dr",
+               "Ste P166-A",
+               "Irvine, CA 92612"
+            ]
+         },
+         "phone": "+19494191458",
+         "display_phone": "(949) 419-1458",
+         "distance": 296.7727983359125
+      },
+      {
+         "id": "xLpZd3Ch1de9tDe7jpSa8g",
+         "alias": "cyber-a-cafe-irvine",
+         "name": "Cyber A Cafe",
+         "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/eK71IfpqJnhOsZ2lcgFDJA/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/cyber-a-cafe-irvine?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 15,
+         "categories": [
+            {
+               "alias": "coffee",
+               "title": "Coffee & Tea"
+            },
+            {
+               "alias": "sandwiches",
+               "title": "Sandwiches"
+            }
+         ],
+         "rating": 3.5,
+         "coordinates": {
+            "latitude": 33.649804,
+            "longitude": -117.84473
+         },
+         "transactions": [],
+         "price": "$",
+         "location": {
+            "address1": "Arts Plaza - University Of California Irvine",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92614",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "Arts Plaza - University Of California Irvine",
+               "Irvine, CA 92614"
+            ]
+         },
+         "phone": "+19498249848",
+         "display_phone": "(949) 824-9848",
+         "distance": 342.86733187707796
+      },
+      {
+         "id": "Yc1k23mgFBbo2t0G2lTTHA",
+         "alias": "starbucks-irvine-32",
+         "name": "Starbucks",
+         "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ir6tbvDP5covYu4ILIxkZQ/o.jpg",
+         "is_closed": false,
+         "url": "https://www.yelp.com/biz/starbucks-irvine-32?adjust_creative=cvrGtE3iHEdyJFjCCzQEQA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=cvrGtE3iHEdyJFjCCzQEQA",
+         "review_count": 29,
+         "categories": [
+            {
+               "alias": "coffee",
+               "title": "Coffee & Tea"
+            }
+         ],
+         "rating": 3.5,
+         "coordinates": {
+            "latitude": 33.64687,
+            "longitude": -117.8384
+         },
+         "transactions": [
+            "delivery"
+         ],
+         "price": "$",
+         "location": {
+            "address1": "4293 Pereira Dr",
+            "address2": "",
+            "address3": "",
+            "city": "Irvine",
+            "zip_code": "92697",
+            "country": "US",
+            "state": "CA",
+            "display_address": [
+               "4293 Pereira Dr",
+               "Irvine, CA 92697"
+            ]
+         },
+         "phone": "+19498240493",
+         "display_phone": "(949) 824-0493",
+         "distance": 420.1878425837728
+      }
+   ],
+   "total": 22,
+   "region": {
+      "center": {
+         "longitude": -117.84103,
+         "latitude": 33.64995
+      }
+   }
+}
